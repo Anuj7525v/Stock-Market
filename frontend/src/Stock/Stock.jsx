@@ -5,7 +5,7 @@ import "chart.js/auto";
 //import "./index.css";
 
 
-const socket = io("http://localhost:5000");
+const socket = io("https://stock-market-t563.onrender.com");
 
 function Stock() {
     const [stockSymbol, setStockSymbol] = useState("AAPL");
